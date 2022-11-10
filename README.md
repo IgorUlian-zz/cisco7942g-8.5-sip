@@ -16,6 +16,10 @@ Executar primeiramente no TFTP a pasta Cisco_7942G para executar o firwmare.
 
 Após executar o firmware, executar um reboot e partir ao próximo.
 
+Na pasta CONFIG, no arquivo SEP(MAC).cnf, você devera renomear o para SEP+MAC do seu aparelho, sem parenteses, como no exemplo: SEP123456789.cnf.
+
+Você precisará editar o arquivo SEP(MAC).cnf com as configurações do servidores e telefones/ramais, dentro do arquivo os locais estarão comentados para alterar.
+
 Não esquecer que na PASTA CONFIG você deverá executar via TFTP (pode ser o tftp64) para executar o aplicativo.
 
 Lembrando que testamos em servidor SIP e que o proxy deve ser apenas em IP.
